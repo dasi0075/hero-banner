@@ -26,12 +26,13 @@ h2 {
   font-size: 4rem;
   padding: .1em;
   background-color: rgba(0, 0, 0, .5);
+  margin: 0;
 }
 
 p {
   font-size: 2rem;
   font-style: italic;
-  margin
+  margin: 0;
 }
 
 .banner-content {
