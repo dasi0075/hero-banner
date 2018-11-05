@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open sans", sans-serif;
+  font-family: Open sans, sans-serif;
   line-height: 1.5;
 }
 
@@ -19,13 +19,13 @@ body {
 
 .banner {
   position: relative;
+  overflow: hidden;
   max-height: 500px;
 }
 
 h2 {
   display: inline;
   color: #fff;
-  shadow: rgba(0, 0, 0, .5);
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
   margin: 0;
@@ -41,6 +41,8 @@ p {
 
 .banner-content {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: left;
   margin-left: .1em;
   bottom: 0;
