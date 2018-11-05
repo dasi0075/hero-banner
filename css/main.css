@@ -18,6 +18,7 @@ body {
 
 .banner {
   position: relative;
+  max-height: 500px;
 }
 
 h2 {
@@ -33,6 +34,7 @@ p {
   font-size: 2rem;
   font-style: italic;
   margin: 0;
+  margin-top:
 }
 
 .banner-content {
@@ -41,4 +43,5 @@ p {
   margin-left: .1em;
   bottom: 0;
   max-width: 50em;
+  margin-left: 1.5em;
 }
